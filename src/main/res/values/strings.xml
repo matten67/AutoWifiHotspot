@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">AutoWifiHotspot</string>
+    <string name="buttonSetPos">Position als Ziel Speichern</string>
+    <string name="textView_TitleAdress">Aktueller Standort</string>
+    <string name="textStandort">Mein Standort</string>
+    <string name="titleHotspot">Start Hotspot</string>
+
+    <string name="intent_action_turnon">de.matlen67.awh.TURN_ON</string>
+    <string name="intent_action_turnoff">de.matlen67.awh.TURN_OFF</string>
+
+    <string name="intent_data_scheme">wifihotspot</string>
+    <string name="intent_data_host_turnon">turnon</string>
+    <string name="intent_data_host_turnoff">turnoff</string>
+    <string name="on_uri"><a href="wifihotspot://turnon">wifihotspot://turnon</a></string>
+    <string name="off_uri"><a href="wifihotspot://turnoff">wifihotspot://turnoff</a></string>
+
+    <string name="turnon_button">Turn On</string>
+    <string name="turnoff_button">Turn Off</string>
+    <string name="dummy_content">NOTE TO\nTHE UNINITIATED</string>
+    <string name="notification_chnnl">Hot Spot</string>
+    <string name="notification_chnnl_location_descr">Keeps wifi hot spot persistent</string>
+    <string name="needpermissions">de.matlen67.awh.NEED_PERMISSION</string>
+    <string name="actions_note">Send an (Implicit )Intent with an actions below in bold. Note that in OREO this is no longer as trivial as it used to be. <a href="http://www.floatingintheclouds.com/app-wifi-hot-spot-on-oreo/">More info here</a>.</string>
+    <string name="instructions"><a href="http://www.floatingintheclouds.com/app-wifi-hot-spot-on-oreo/">INSTRUCTIONS</a></string>
+
+    <string name="launch_activity">Launch activity</string>
+    <string name="location_unknown">Location unknown</string>
+    <string name="location_updates_label">Location Updates</string>
+
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core functionality.</string>
+    <string name="settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="request_location_updates">Request location updates</string>
+    <string name="remove_location_updates">Remove location updates</string>
+
+    <string name="location_updated">Location Updated: %1$s</string>
+
+    <string name="geofences_added">Geofences added</string>
+    <string name="geofences_removed">Geofences removed</string>
+
+    <!-- Error strings -->
+    <string name="geofence_not_available">Geofence service is not available now</string>
+    <string name="geofence_too_many_geofences">Your app has registered too many geofences</string>
+    <string name="geofence_too_many_pending_intents">
+        You have provided too many PendingIntents to the addGeofences() call
+    </string>
+    <string name="unknown_geofence_error">
+        Unknown error: the Geofence service is not available now
+    </string>
+    <string name="geofence_transition_invalid_type">
+        Geofence transition error: invalid transition type %1$d
+    </string>
+
+    <!-- Transition type strings -->
+    <string name="geofence_transition_entered">Entered</string>
+    <string name="geofence_transition_exited">Exited</string>
+    <string name="unknown_geofence_transition">Unknown Transition</string>
+
+    <string name="geofence_transition_notification_text">
+        Click notification to return to app
+    </string>
+
+    <string name="insufficient_permissions">Insufficient permissions.</string>
+
+</resources>
